@@ -123,6 +123,8 @@ var responsive={
 	navLi: function(){
 		var goPage;
 		var topPos;
+		var $header=$("#header");
+		var $section=$("section");
 
 		$("#nav li, #mobile_nav li").click(function(e){
 			e.preventDefault();
